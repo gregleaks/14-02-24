@@ -8,6 +8,6 @@ export const fazerLogin = (e) => {
 if (txtLogin.value == login && txtSenha.value == senha) {
     console.log("Acesso Liberado");
     } else {
-        console.log("Login ou senha inválidos")
+        console.log("Login ou senha inválidos");
     }
 }
