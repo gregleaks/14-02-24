@@ -21,9 +21,9 @@ function App() {
           Learning React
         </a>
         <br />
-        <input type="text" id="txtlogin"></input>
+        <input type="text" id={"txtlogin"}></input>
         <br />
-        <input type="text" id="txtSenha"></input>
+        <input type="text" id={"txtSenha"}></input>
         <br />
         <button
           onClick={fazerLogin}
